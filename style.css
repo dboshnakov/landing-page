@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {  
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    padding: 0px 160px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 80%;
+    padding: 0px 16px;
+    
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #E5E7EB;
+    align-items: center;
+}
