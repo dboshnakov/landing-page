@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -41,38 +41,38 @@ ul {
     align-items: center;
 }
 
-.main {
+.main1 {
     background-color: #1F2937;
-    height: 480px;
+    height: 60vh;
     padding: 120px 240px;
     display: flex;
     box-sizing: border-box;
 }
 
-.main-left {
+.main1-left {
     margin-right: auto;
     width: 50%;
 }
 
-.main-right {
+.main1-right {
     margin-left: auto;
     width: 50%;
     background-color: #7291bb;
     display: flex;
 }
 
-.main-right img {
+.main1-right img {
     margin: auto;
 }
 
-.main-text {
+.main1-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     margin-bottom: 12px;
 }
 
-.main-subtext {
+.main1-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -88,3 +88,60 @@ button {
     color: #F9FAF8;
 }
 
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    height: 40vh;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.images {
+    display: flex;
+    gap: 24px;
+}
+
+.square {
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 12px;
+    width: 12.5vw;
+    aspect-ratio: 1/1;
+}
+
+.subtext {
+    position: relative;
+    top: 12.5vw;
+    margin-top: 16px;
+    text-align: center;
+    color: #3882F6;
+}
+
+.main3 {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light ;
+    font-style: italic;
+    color: #1F2937;
+    width: 50vw;
+}
+
+.quote-author {
+    margin-left: 25%;
+}
