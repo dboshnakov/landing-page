@@ -9,7 +9,7 @@ body {
     background-color: #1F2937;
     display: flex;
     color: #F9FAF8;
-    padding: 0px 240px;
+    padding: 0px 10vw;
 }
 
 .logo {
@@ -44,7 +44,7 @@ ul {
 .main1 {
     background-color: #1F2937;
     height: 60vh;
-    padding: 120px 240px;
+    padding: 10vh 10vw;
     display: flex;
     box-sizing: border-box;
 }
@@ -94,7 +94,8 @@ button {
     align-items: center;
     background-color: #FFFFFF;
     padding-top: 48px;
-    height: 40vh;
+    padding-bottom: 48px;
+height: 40vh;
 }
 
 .title {
@@ -127,7 +128,7 @@ button {
 
 .main3 {
     background-color: #E5E7EB;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,13 +136,70 @@ button {
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: light ;
-    font-style: italic;
     color: #1F2937;
     width: 50vw;
 }
 
-.quote-author {
-    margin-left: 25%;
+.actual-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.main4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh 14vw;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    border-radius: 1.5vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-left: 10%;
+    font-size: 1vh;
+}
+
+.cta-right {
+    margin-left: auto;
+    padding-right: 10%;
+}
+
+.cta-right button {
+    border-color: white;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-size: 16px;
 }
